@@ -1,3 +1,51 @@
-*{
+body{
     font-family: Poppins Regular;
+}
+nav{
+    display: flex;
+    height: 72px;
+    color: white;
+    background-color:#0475ba ;
+    margin-left: 40px;
+    
+}
+nav h2{
+    margin-left: 20px;
+}
+nav ul{
+display: flex;
+list-style-type: none;
+align-items: center;
+margin-right:  auto;
+justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.section-1, .section-2, .section-3, .section-4,.section-5{
+    padding-left: 40px;
+}
+.section-1 h3{
+    color:#0475ba ;
+}
+.section-1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    justify-content: ;
+}
+.section-2{
+    color: white;
+    background-color: #0475ba;
+    
+}
+.section-4{
+    color: white;
+    background-color: #0475ba;
+    
+}
+footer{
+    color: white;
+    background-color: #0475ba;
+    
 }
