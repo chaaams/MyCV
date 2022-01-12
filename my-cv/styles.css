@@ -19,11 +19,19 @@ align-items: center;
 margin-right:  auto;
 justify-content: space-between;
 }
+ul li {
+    margin: 5px;
+    
+}
 a{
     text-decoration: none;
+    color: white;
 }
 .section-1, .section-2, .section-3, .section-4,.section-5{
-    padding-left: 40px;
+    margin-left: 40px;
+}
+.section-1{
+    align-items: center;
 }
 .section-1 h3{
     color:#0475ba ;
@@ -47,5 +55,6 @@ a{
 footer{
     color: white;
     background-color: #0475ba;
+    margin-left: 20px;
     
 }
