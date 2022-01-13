@@ -6,28 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio </title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.css">
 </head>
 <body>
     <nav>
         <h2>Noémie MARTIN</h2>
     <ul>
-        <li><a href="#profile">Profil</a></li>
-        <li><a href="#experience">Expérience</a></li>
-        <li><a href="#formation">Formation</a></li>
+        <li>Profil</li>
+        <li>Expérience</li>
+        <li>Formation</li>
     </ul>
     </nav>
     <header>
-        <div>
-            <div>
+        <div class="header">
+            <div class="name-job">
                 <h1>Noémie MARTIN</h1>
                 <h2>Développeuse Fullstack</h2>
             </div>
-            <img src="./img/noemie_martin.png" alt="Photo de Noémie" srcset="">
+                <img  class="arounded-img" src="./img/noemie_martin.png" alt="Photo de Noémie" srcset="">
         </div>
     </header>
     <main>
     <section>
-    <div>
+    <div class="content">
         <h2>Présentation</h2>
         <ul>
             <li>Passionée de nouvelles technologies</li>
@@ -36,34 +37,56 @@
         </ul>
     </div>
     </section>
-    <section>
-        <div>
+    <section class="experiences">
+        <div class="content">
             <h2>Expérience professionnelles</h2>
-        </div>
-        <div>
-            <h3>Stagiaire en developpement chez TechLabs</h3>
-            <span>2018</span>
-        </div>
+        
+        <div class="experience-date">
+            <h3>Stagiaire en developpement chez TechLabs<span>2018</span></h3>
+            
+        
         <div>Création du site web</div>
         <div>Créations de tests unitaires pour l'application interne</div>
         <div>
-            <h3>Bénévole Konexio</h3>
-            <span>2016-2018</span>
+        
+            <h3>Bénévole Konexio<span>2016-2018</span></h3>
+            
         </div>
         <div>Organisation des événements</div>
         <div>Validation des comptes de l'association</div>
+        </div>
     </section>
     <section>
-        <div>
+        <div class="content">
             <h2>Formation</h2>
-        </div>
+        
         <div>
             Licence en médecine à Paris XXI <span>2015-2018</span>
         </div>
         <div>
             Bac S au lycée Marco Polo <span>2015</span>
         </div>
+    </div>
     </section>
+    <section>
+        <div class="content">
+            <h2>Passion</h2>
+        
+        <div>Saut en parachute, Bali</div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-div">
+            <a href="https://www.konexio.eu/index.html" target="_blank">Mon blog Tech</a>
+            <a href="https://www.konexio.eu/index.html" target="_blank">Mon blog voyage</a>
+        </div>
+        <div class="footer-div">
+            <i class="fab fa-linkedin-in"></i> 
+            <a href="https://www.konexio.eu/index.html" target="_blank">LinkedIn</a>
+            <i class="fab fa-twitter"></i>
+            <a href="https://www.konexio.eu/index.html" target="_blank"></i>Twitter</a>
+        </div>
+    </footer>
     </main>
 </body>
 </html>

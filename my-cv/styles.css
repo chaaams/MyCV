@@ -1,84 +1,76 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(../Poppins-Medium.ttf);
+}
 body{
-    font-family: Poppins Regular;
+    font-family: 'poppins';
+    padding: 0;
+    margin: 0;
 }
 nav{
-    display: flex;
-    height: 72px;
     color: white;
-    background-color:#0475ba ;
-    margin-left: 40px;
+    background-color: #0475ba;
+    height: 74px;
+    display: flex;
+}
+nav > ul {
+    list-style-type: none;
+    display: flex;
     
+}
+nav > ul > li{
+    padding: 10px;
+}
+ul > li{
+    text-decoration: none;
 }
 nav h2{
-    margin-left: 20px;
+
 }
-nav ul{
-display: flex;
-list-style-type: none;
-align-items: center;
-margin-right:  auto;
-justify-content: space-between;
+header{
+    display: flex;
+    justify-content: center;
 }
-ul li {
-    margin: 5px;
-    
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
-.section-1, .section-2, .section-3, .section-4,.section-5{
-    margin-left: 40px;
-}
-.section-1{
-    width: 600px;
-    display: flexbox;
-    
-}
-.section-1 h2{
-    text-align: center;
-}
-.section-1 h3{
-    color:#0475ba ;
-    text-align: center;
-}
-.section-1 img{
-    width: 150px;
+.arounded-img{
     height: 150px;
     border-radius: 50%;
 }
-.section-2{
-    color: white;
-    background-color: #0475ba;
-    text-align: center;
-    
+.name-job{
+    padding-right: 80px;
 }
-.section-4{
+section:nth-child(even) h2{
+	color: #0475ba;
+}
+section:nth-child(odd) {
+	background-color: #0475ba;
     color: white;
-    background-color: #0475ba;
-    
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.content {
+	width: 800px;
+	padding: 40px;
+    display: inline-block;
+    line-height: 3;
+}
+span{
+    float: right;
+    font-weight: normal;
 }
 footer{
-    
-    color: white;
+    height: 150px;
     background-color: #0475ba;
-    margin-left: 20px;
-    
+display: flex;
+}
+.footer-div{
+    display: block;
 }
 
-.marge{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 400px;
-}
-
-.marge1{
-    display: flex;
-    flex-direction: column;
-}
-
-.marge img{
-    margin-left: 200px;
-}
