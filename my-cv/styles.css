@@ -31,20 +31,26 @@ a{
     margin-left: 40px;
 }
 .section-1{
-    align-items: center;
+    width: 600px;
+    display: flexbox;
+    
+}
+.section-1 h2{
+    text-align: center;
 }
 .section-1 h3{
     color:#0475ba ;
+    text-align: center;
 }
 .section-1 img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    justify-content: ;
 }
 .section-2{
     color: white;
     background-color: #0475ba;
+    text-align: center;
     
 }
 .section-4{
@@ -53,8 +59,26 @@ a{
     
 }
 footer{
+    
     color: white;
     background-color: #0475ba;
     margin-left: 20px;
     
+}
+
+.marge{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.marge1{
+    display: flex;
+    flex-direction: column;
+}
+
+.marge img{
+    margin-left: 200px;
 }

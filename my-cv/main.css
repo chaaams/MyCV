@@ -1,0 +1,77 @@
+body{
+    font-family: Poppins Regular;
+    padding: 40px;
+}
+nav{
+    display: flex;
+    height: 74px;
+    color: #ffff;
+    background-color: #0475ba;
+
+}
+nav h2{
+    margin-left: 15px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    
+}
+.section-3 li, .section-5 li{
+    color: black;
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+}
+img{
+    border-radius: 50%;
+    height: 150px;
+    padding-top: 25px;
+    
+}
+.section-2, .section-4, footer{
+    background-color: #0475ba;
+    color: white;
+}
+.section-3 ul, .section-4 ul, .section-5 ul{
+    list-style-type: none;
+}
+.section-2,.section-3,.section-4,.section-5{
+    padding: 20px 50px 20px 150px;
+    
+}
+.section-3 h3, .section-5 h3{
+    color:#0475ba ;
+}
+.section-3, .section-5{
+    color: #0475ba;
+}
+.section-1{
+    display: flex;
+    height: 200px;
+}
+div .container{
+    display: inline-flex;
+}
+.section-1 div{
+    align-items: center;
+    display: initial;
+    padding-left: 74px;
+    float: left;
+    text-align: center;
+}
+.first-div h3{
+    color: #0475ba;
+}
+span{
+    font-weight: bold;
+}
+aside{
+    float: right;
+}
+footer{
+    height: 90px;
+}
