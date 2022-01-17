@@ -21,11 +21,11 @@ nav > ul {
 nav > ul > li{
     padding: 10px;
 }
-ul > li{
+a{
     text-decoration: none;
 }
-nav h2{
-
+ul > li{
+    text-decoration: none;
 }
 header{
     display: flex;
@@ -81,4 +81,31 @@ footer{
 }
 a{
     color: white;
+}
+body {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+.name-job > h2{
+    color: #0475ba;
+}
+@media (max-width: 880px){
+    nav > ul{
+        display: none;
+        
+    }
+    .header{
+        display: block;
+        align-content: center;
+    }
 }
